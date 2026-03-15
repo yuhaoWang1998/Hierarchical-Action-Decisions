@@ -84,26 +84,34 @@ To complement global planning, we introduce a hierarchical search strategy that 
   </section>
 
 
-
-  <section id="intro" class="container my-5">
-    <h2 class="text-center">Local exploration network</h2>
-    <img src="images/Figure5.png" alt="" class="img-fluid d-block mx-auto" style="max-width:1000px;">
+  <!-- 局部探索网络 (模型架构单独作为一个Section) -->
+  <section id="network" class="container my-5">
+    <h2 class="text-center mb-4">Local Exploration Network</h2>
+    <!-- 添加了 rounded 和 shadow-sm 让图片看起来更有质感（可选） -->
+    <img src="images/Figure5.png" alt="Local exploration network" class="img-fluid d-block mx-auto rounded shadow-sm" style="max-width:1000px;">
   </section>
 
+  <!-- 实验结果展示区 (合并为一个Section) -->
+  <section id="results" class="container my-5">
+    <h2 class="text-center mb-5">Experimental Results</h2>
 
-  <section id="method" class="container my-5">
-    <h2 class="text-center">Quantitative experimental results</h2>
-    <img src="images/Figure7.png" alt="" class="img-fluid d-block mx-auto" style="max-width:700px;">
-  </section>
+    <!-- 第一排：定量结果与定性结果并排展示 -->
+    <div class="row mb-5">
+      <div class="col-md-6 mb-4">
+        <h4 class="text-center text-secondary mb-3">Quantitative Results</h4>
+        <img src="images/Figure7.png" alt="Quantitative experimental results" class="img-fluid d-block mx-auto" style="max-width:700px;">
+      </div>
+      <div class="col-md-6 mb-4">
+        <h4 class="text-center text-secondary mb-3">Qualitative Results</h4>
+        <img src="images/Figure24.png" alt="Qualitative experimental results" class="img-fluid d-block mx-auto" style="max-width:700px;">
+      </div>
+    </div>
 
-  <section id="method" class="container my-5">
-    <h2 class="text-center">Qualitative experimental results</h2>
-    <img src="images/Figure24.png" alt="" class="img-fluid d-block mx-auto" style="max-width:700px;">
-  </section>
-
-  <section id="method" class="container my-5">
-    <h2 class="text-center">Visualization of navigation trajectories projected onto 2D maps</h2>
-    <img src="images/Figure37.png" alt="" class="img-fluid d-block mx-auto" style="max-width:1000px;">
+    <!-- 第二排：导航轨迹可视化（宽图居中） -->
+    <div class="mt-5">
+      <h4 class="text-center text-secondary mb-4">Navigation Trajectories Projected onto 2D Maps</h4>
+      <img src="images/Figure37.png" alt="Visualization of navigation trajectories" class="img-fluid d-block mx-auto rounded shadow-sm" style="max-width:1000px;">
+    </div>
   </section>
 
  <section id="method" class="container my-5">
